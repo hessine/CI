@@ -57,7 +57,7 @@ pipeline {
             steps {
                 script {
                   
-                    bat "C:\\CI\\apache-maven-3.6.2\\bin\\mvn deploy"
+                    bat "mvn deploy"
                 }
             }
         }
